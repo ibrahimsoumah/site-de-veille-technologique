@@ -1,0 +1,31 @@
+body{
+background-color: #e9f3fc;
+}
+header{
+
+background-color:#a750e5;
+
+}
+
+h1{
+margin-left: 40px;
+color: #cf9ef1;
+margin-top: 30px;
+}
+.img1{
+margin-left: 20%;
+}
+p {
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+}
+h2{
+margin-left: 30px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(39, 31, 31);
+}
+footer{
+height: auto;
+width: 100%;
+background-color: #a5a1a8;
+}
