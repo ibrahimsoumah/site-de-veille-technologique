@@ -15,30 +15,28 @@
 <body>
     <header class="navbar navbar-expand-md ">
         <span class="navbar-text" style="color: aquamarine;font-size: 50px;">IBRA-NEWS</span>
-        <a href="#" class="navbar-brand">
+        <a href="index.html" class="navbar-brand">
             <img src="images/business.png" height="130" width="130" alt="logo page">
         </a>
-        <button class="navbar-toggler " data-toggle="collapse" data-target="#navbar-content">
-            <span class="navbar-toggler-icon btn-primary" style="color: aquamarine;"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-content">
-            <ul class="navbar-nav ml-auto" style="font-size: 30px;">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link "> ACCEUIL</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://ibrahimsoumah.000webhostapp.com/" class="nav-link"> PORTFOLIO</a>
-                </li>
 
-            </ul>
-        </div>
+
+        <ul class="navbar-nav    col-xs-ml-auto col-sm-ml-auto ml-auto " style="font-size: 30px;">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link "> ACCEUIL</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://ibrahimsoumah.000webhostapp.com/" class="nav-link"> PORTFOLIO</a>
+            </li>
+
+        </ul>
+
     </header>
 
     <main class="container-fluid">
         <!--grille responsive-->
 
         <div class="row">
-            <article class=" col-12 col-sm-6 col-md-4 col-lg-10 p-4  ">
+            <article class=" col-12 col-sm-12 col-md-4 col-lg-10 p-4  ">
                 <div class="w-auto h-auto ">
                     <h1 style="color: rgb(231, 111, 81);">Stack Overflow</h1>
                     <hr>
@@ -97,13 +95,20 @@
             </article>
         </div>
         <br>
-        <iframe width="727" height="409" src="https://www.youtube.com/embed/QwS1r1mc888" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="auto" height="auto"
+                src="https://www.youtube.com/embed/QwS1r1mc888" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
         <br>
         <br>
         <hr>
-        <iframe width="727" height="409" src="https://www.youtube.com/embed/d0ODT3feNw4" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item  w-30" height="100px" src="https://www.youtube.com/embed/d0ODT3feNw4"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
         <br>
         <br>
 
@@ -130,7 +135,7 @@
                     <hr class="clearfix w-100 d-md-none pb-3">
 
                     <!-- Grid column -->
-                    <div class="col-md-3 mb-md-0 mb-3">
+                    <div class="col-md-3 col-sm-12 mb-md-0 mb-3">
 
                         <!-- Links -->
                         <h5 class="text-uppercase">Ou me trouver?</h5>

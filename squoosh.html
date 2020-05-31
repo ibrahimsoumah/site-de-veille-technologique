@@ -15,23 +15,21 @@
 <body>
     <header class="navbar navbar-expand-md ">
         <span class="navbar-text" style="color: aquamarine;font-size: 50px;">IBRA-NEWS</span>
-        <a href="#" class="navbar-brand">
+        <a href="index.html" class="navbar-brand">
             <img src="images/business.png" height="130" width="130" alt="logo page">
         </a>
-        <button class="navbar-toggler " data-toggle="collapse" data-target="#navbar-content">
-            <span class="navbar-toggler-icon btn-primary" style="color: aquamarine;"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-content">
-            <ul class="navbar-nav ml-auto" style="font-size: 30px;">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link "> ACCEUIL</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://ibrahimsoumah.000webhostapp.com/" class="nav-link"> PORTFOLIO</a>
-                </li>
 
-            </ul>
-        </div>
+
+        <ul class="navbar-nav    col-xs-ml-auto col-sm-ml-auto ml-auto " style="font-size: 30px;">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link "> ACCEUIL</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://ibrahimsoumah.000webhostapp.com/" class="nav-link"> PORTFOLIO</a>
+            </li>
+
+        </ul>
+
     </header>
 
     <main class="container-fluid">
@@ -109,9 +107,12 @@
                     <br>
                     <br>
                     <p>voila une video pour resumer</p>
-                    <iframe width="727" height="409" src="https://www.youtube.com/embed/8QYVWrBDz2Y" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="727" height="409"
+                            src="https://www.youtube.com/embed/8QYVWrBDz2Y" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </article>
         </div>
